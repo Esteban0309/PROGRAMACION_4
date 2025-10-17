@@ -6,7 +6,6 @@ fun main() {
     val ubicacion = "Quito"
     var vehiculoDisponible = "Toyota Corolla"
 
-    // Cambiar el vehículo disponible
     vehiculoDisponible = "Honda Civic"
 
     println("Tipos de Variables")
