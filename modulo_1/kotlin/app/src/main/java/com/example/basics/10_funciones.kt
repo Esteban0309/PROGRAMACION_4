@@ -33,10 +33,6 @@ fun main(){
     println(cuadradoLambda(4))
     println(saludoLambda("Juan Luis Guerra"))
 
-<<<<<<< HEAD
-    //Calculadora
-=======
->>>>>>> a81b8b4ae198e17fe11ac68d5ef9750d72a3e0f6
 
 
 

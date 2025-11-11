@@ -1,5 +1,7 @@
 package com.example.basics
 
+import java.lang.IO.println
+
 fun main(){
     println("VARIABLES")
     val planeta = "Tatooine"
