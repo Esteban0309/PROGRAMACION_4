@@ -4,9 +4,9 @@ void main() {
   print("Lista original $numbers");
   print("Tamaño ${numbers.length}");
   print("Indice 4 ${numbers[4]}");
-  print("Primer elemento ${numbers.first}");
+  print("Primer Elemento ${numbers.first}");
   final reversedNumbers = numbers.reversed;
-  print("Reveso de numbers ${numbers.reversed}");
+  print("Reverso de numbers ${reversedNumbers}");
   print("List : ${reversedNumbers.toList()}");
   print("Set : ${reversedNumbers.toSet()}");
 }

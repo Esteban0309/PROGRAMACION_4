@@ -1,20 +1,18 @@
 void main() {
-  final Vehiculo coche1 = Vehiculo(nombre: 'Toyota Agya', tipo: 'Sedán');
-  print(coche1);
-  print(coche1.nombre);
-  print(coche1.tipo);
-  print(coche1.estadoDisponibilidad);
+final estudiante alumno =estudiante (name:'Sara loor',carrera: 'desarrollo de Software');
+  print(alumno);
+  print(alumno.name);
+  print(alumno.carrera);
 }
-
-class Vehiculo {
-  String nombre = "";
-  String tipo = "";
-  String estadoDisponibilidad = "Disponible";  // Por defecto, está disponible
-
-  Vehiculo({required this.nombre, required this.tipo, this.estadoDisponibilidad = "Disponible"});
-
-  @override
-  String toString() {
-    return "$nombre - $tipo - Estado: $estadoDisponibilidad";
-  }
+class estudiante{
+  String name="" ;
+  String carrera="";
+  estudiante({
+    required this.name,
+    this.carrera="sin carrera asignada"});
+  
+    @override
+    String toString(){
+      return "$name- $carrera"; 
+}
 }

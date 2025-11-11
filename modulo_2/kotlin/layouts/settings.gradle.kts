@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Layouts"
+rootProject.name = "layouts"
 include(":app")
  

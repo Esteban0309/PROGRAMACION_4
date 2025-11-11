@@ -1,29 +1,23 @@
 void main() {
-  print("Tipos de Variables en Dart");
-  
+  print("tipo de variable en dart");
   final String pokemon ="Ditto";
   print(pokemon);
-  String myName = "Esteban";
-  myName = "Corella";
+  String myName= 'Sandra';
+  myName = "Rodriguez";
   print(myName);
-  
-  const String elemento ="Fuego";
+  const String elemento ='fuego';
   print("elemento: $elemento");
-  
-  bool active = false;
+  bool active =false;
   active = false;
-  print("Es activo: $active");
+  print ("es activo: $active");
+  int hp =1000;
+  print ("caballo de fuerza $hp");
+  List<String>abilities=["impostor","correlón"];
+  print ("habilidades $abilities");
+  final sprites = <String>["src/image1.jpg","imagen2"];
+  print ("imagenes $sprites");
   
-  int hp = 1000;
-  print("Caballos de fuerza $hp");
-  List<String> abilities=["impostor","corrlón"];
-  print("habilidades $abilities"); 
-  
-  final sprites =<String>["src/image1.jpg",
-                         "image2"];
-  print("Imagenes $sprites");
-  
-  print("Impresion en varios lineas");
+  print("impresion en varias lineas");
   print("""
   $pokemon
   $hp

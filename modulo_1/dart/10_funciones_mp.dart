@@ -1,19 +1,19 @@
 void main() {
-  print(greetEveryone());
-  print(totalCost(3, 20));
-  print(addExtraCost(6, 5));
-  print(addExtraCost(8));
-  print(greetCustomer(name: "Corella", message: "Gracias por alquilar con nosotros"));
-  print(greetCustomer(name: "Esteban"));
+print(bienvenidaGeneral());
+print (calcularPuntaje(8, 9));
+print (calcularPuntajeOpcional(7, 8));
+print (calcularPuntajeOpcional(9));
+print(saludoEstudiante(name: "Rodriguez",message:"gracias por visitarnos"));
+print(saludoEstudiante(name: "Sara"));
 }
 
-String greetEveryone() => "Bienvenidos al alquiler de vehículos";
-int totalCost(int dias, int tarifaDia) => dias * tarifaDia;
+String bienvenidaGeneral()=>'bienvenido instituto educativo tu puntaje es :';
 
-int addExtraCost(int dias, [int extraCost = 0]) {
-  return dias * 20 + extraCost;
+int calcularPuntaje (int nota1, int nota2)=>nota1+nota2;
+int calcularPuntajeOpcional (int nota1, [int nota2=0]){
+  return  nota1+nota2;
 }
 
-String greetCustomer({required String name, String message = "Bienvenido"}) {
-  return '$message, $name';
+String saludoEstudiante({required String name, String message="hola"}){
+  return '$message $name';
 }

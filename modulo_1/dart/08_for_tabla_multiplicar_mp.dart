@@ -1,7 +1,7 @@
-void main(){
-  int diasAlquiler = 10;
-  double tarifaDia = 20;
-  for (int i = 1; i <= diasAlquiler; i++) {
-    print("$i día(s) * \$${tarifaDia} = \$${i * tarifaDia}");
-  }
+void main() {
+  int meses = 10;
+  double cuota =150.0;
+ for (int i=1; i<=meses;i++){
+   print("mes $i * $cuota = ${i*cuota}");
+ }
 }

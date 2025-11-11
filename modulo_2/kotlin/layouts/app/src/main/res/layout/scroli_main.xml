@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@android:color/holo_orange_dark"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ESTA ES UNS PALNTILLA CON SCROLL VIEW!"
+            android:textSize="24dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_purple"
+            android:textFontWeight="@android:integer/config_longAnimTime"
+            android:background="@android:color/holo_green_light"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dibujando pantallas!"
+            android:background="@android:color/holo_blue_bright"
+            android:textSize="24dp"
+            android:textAlignment="center"
+
+
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aceptar1!"
+            android:background="@android:color/holo_blue_bright"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aceptar2!"
+            android:background="@android:color/holo_blue_light"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aceptar3!"
+            android:background="@android:color/holo_green_light"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aceptar4!"
+            android:background="@android:color/holo_green_light"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aceptar5!"
+            android:background="@android:color/holo_green_light"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="end|center_vertical">\
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aceptar"
+                android:background="@android:color/background_light"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aceptar"
+                android:background="@android:color/holo_blue_light"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aceptar"
+                android:background="@android:color/holo_orange_light"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aceptar"
+                android:background="@android:color/primary_text_light_nodisable"/>
+        </LinearLayout>
+    </LinearLayout>

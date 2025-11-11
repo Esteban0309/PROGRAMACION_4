@@ -1,0 +1,1 @@
+print('Bienvenidos ejemplo de admision de instituciones educativas')
