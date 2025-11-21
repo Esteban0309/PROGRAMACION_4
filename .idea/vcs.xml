@@ -2,5 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/modulo_2/flutter_windows_3.35.7-stable/flutter" vcs="Git" />
   </component>
 </project>
